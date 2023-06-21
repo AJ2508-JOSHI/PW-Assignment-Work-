@@ -1,0 +1,51 @@
+Q 1. What is Git?
+Ans .- Git is a distributed version control system that allows multiple developers to collaborate on a project by tracking changes to files. It provides a way to manage and organize code revisions, enabling teams to work simultaneously on the same codebase. Git keeps a complete history of changes, making it easy to revert to previous versions if needed. It also supports branching and merging, allowing developers to work on different features or experiments independently and later merge them back into the main codebase. Git has become widely used in software development due to its speed, efficiency, and ability to handle both small and large projects effectively.
+
+Q2.  What do you understand by the term ‘Version Control System’s ? 
+Ans .- A version control system (VCS) is a software tool that helps manage changes to files over time. It provides a systematic way to track and control different versions of a project or set of files, enabling collaboration and facilitating the development process. Here's a brief explanation:
+       1. Tracking changes: A VCS keeps a record of all modifications made to files, including additions, deletions, and modifications. It captures information such as who made the change, when it was made, and a description of the change.
+       2. Collaboration: VCS allows multiple developers to work on the same files concurrently. It provides mechanisms to merge changes made by different users, ensuring that everyone's modifications are integrated smoothly.
+          3. Version history: VCS maintains a history of all versions of files, allowing users to access any previous version at any time. This enables developers to revert to earlier versions, compare changes, and identify when and why specific modifications were made.
+         4. Branching and merging: VCS allows developers to create branches, which are independent lines of development. Branches enable the isolation of specific features, experiments, or bug fixes, allowing parallel development. Later, branches can be merged back into the main codebase, integrating the changes.
+        5. Conflict resolution: When multiple users make conflicting changes to the same file, VCS helps in resolving conflicts by providing tools to identify, compare, and manually merge conflicting modifications.
+         6. Backup and recovery: VCS acts as a reliable backup system by keeping a complete history of files. In case of data loss or system failures, the VCS can restore previous versions, minimizing the risk of data loss.
+Q 3.  What is GitHub?
+Ans. - GitHub is a web-based platform that hosts Git repositories. It provides a collaborative environment for developers to store, manage, and share code repositories. GitHub offers features like version control, issue tracking, pull requests, and project management tools, making it popular for open-source projects and team collaboration.
+
+Q 4. Mention some popular Git hosting services ?
+Ans-> 
+1. GitHub: One of the most widely used platforms for hosting Git repositories, offering a robust set of features and a large community.
+2. GitLab: A comprehensive DevOps platform that includes Git repository hosting, continuous integration, and project management tools.
+3. Bitbucket: A Git and Mercurial hosting service that provides features such as code collaboration, issue tracking, and integrations with other Atlassian products.
+4. Azure DevOps: A suite of development tools by Microsoft, which includes Git repository hosting, build automation, release management, and project tracking.
+5. AWS Code Commit: A managed Git hosting service offered by Amazon Web Services, providing secure and scalable repositories for storing code.
+
+Q.5 – Different types of version control system?
+Ans.-  There are several types of version control systems (VCS), including:
+1. Centralized VCS: A server-based VCS where files are stored on a central repository, and users check out and check in files to make changes.
+2. Distributed VCS: A decentralized VCS where each user has a complete copy of the repository, allowing for offline work and easier collaboration.
+3. Local VCS: A simple VCS that tracks changes on a local machine, typically using file-based revision history.
+4. Git: A distributed VCS that emphasizes speed, scalability, and branching and merging capabilities, widely used in software development.
+5. Subversion (SVN): A centralized VCS that tracks changes on a central server and supports versioned directories and files.
+
+Q 6. – What benefits come with using GIT?
+Ans -. Using Git provides several benefits:
+1. Distributed collaboration: Git allows multiple developers to work on the same project simultaneously and merge their changes efficiently.
+2. Version control: Git tracks and manages changes to files, enabling easy rollback, comparison, and retrieval of previous versions.
+3. Branching and merging: Git supports branching, allowing developers to work on separate features or experiments independently and merge changes seamlessly.
+4. Speed and efficiency: Git's design and use of local repositories make operations fast, even with large codebases and extensive revision history.
+5. Data integrity: Git employs cryptographic hashing to ensure the integrity of data, making it highly reliable and resistant to corruption.
+
+Q7 .- What is a Git repository?
+Ans. - A Git repository is a storage location where all the files, directories, and revision history of a project are stored. It contains the entire history of changes made to the project, allowing users to track modifications, create branches, merge changes, and collaborate with other developers.
+
+
+Q8. – How can you initialize a repository in Git?
+Ans .- To initialize a repository in Git, you can follow these steps:
+1. Open a command prompt or terminal in the desired directory where you want to create the repository.
+2. Use the command "git init" to initialize a new Git repository in that directory.
+3. Git will create a hidden ".git" folder that contains the necessary files and structure for version control.
+4. Your repository is now initialized and ready to track changes. You can start adding files, making commits, and using Git commands to manage your project's history.
+
+
+
