@@ -1,0 +1,54 @@
+Q 1: - What is Programming Language ? 
+Ans: -A programming language is a formal language that enables humans to communicate instructions to a computer or computing system. It provides a set of rules and syntax for writing programs, which are sets of instructions that direct the computer to perform specific tasks or solve problems.
+Programming languages allow developers to write code using a combination of keywords, symbols, and expressions to create algorithms and manipulate data. They provide a means for translating human-readable instructions into machine-readable instructions that the computer can understand and execute.
+There are numerous programming languages available, each with its own syntax, features, and areas of application. Examples of popular programming languages include Python, JavaScript, Java, C++, Ruby, and many others. Different programming languages are used for various purposes, such as web development, mobile app development, data analysis, artificial intelligence, system administration, and more.
+
+
+Q 2 :- Why do we need a programming language ?
+Ans: - We need a programming language for several reasons:
+1. Communication with computers: Programming languages act as a means of communication between humans and computers. They allow us to convey instructions and commands to the computer, specifying the desired actions and computations.
+2. Software development: Programming languages are essential for developing software applications. They provide the tools and syntax necessary to write code that defines the behavior and functionality of software programs.
+3. Problem solving: Programming languages enable us to solve complex problems by breaking them down into smaller, manageable tasks that can be expressed as algorithms. Through programming, we can create solutions for a wide range of real-world challenges.
+4. Automation and efficiency: With programming languages, we can automate repetitive tasks and streamline processes. By writing programs, we can instruct computers to perform tasks efficiently, saving time and effort.
+5. Innovation and creativity: Programming languages provide a platform for innovation and creativity. They empower developers to create new applications, tools, and technologies that enhance various aspects of our lives, from communication and entertainment to science and research.
+
+
+Q3 : -  What are the features of Java?
+Ans: - 
+Java is a popular programming language known for its versatility and wide range of features. Here are some key features of Java:
+1. Platform Independence: Java programs can run on any operating system or platform that has a Java Virtual Machine (JVM) installed. This platform independence is achieved through the "Write Once, Run Anywhere" principle.
+2. Object-Oriented Programming (OOP): Java is designed as an object-oriented language, allowing developers to create modular and reusable code through the use of classes, objects, and inheritance. It supports key OOP concepts like encapsulation, polymorphism, and abstraction.
+3. Garbage Collection: Java's automatic memory management system frees developers from managing memory explicitly. The JVM automatically handles memory allocation and deallocation, including garbage collection to reclaim memory occupied by unused objects.
+4. Robustness and Reliability: Java incorporates features such as strong type checking, exception handling, and automatic bounds checking, which contribute to the overall robustness and reliability of Java applications. This helps catch and handle errors, making Java programs more stable.
+5. Multithreading and Concurrency: Java provides built-in support for multithreading and concurrent programming. Developers can create multiple threads of execution within a single program, allowing for parallel processing and efficient utilization of system resources.
+6. Rich Standard Library: Java comes with a comprehensive standard library that provides a wide range of classes and methods for various tasks, such as input/output operations, networking, data structures, utilities, and more. This library simplifies common programming tasks and boosts productivity.
+7. Security: Java has built-in security features, including a robust security architecture that protects against various vulnerabilities, such as memory corruption, buffer overflows, and unauthorized access. It supports features like secure class loading, cryptography, and access control mechanisms.
+8. Community and Ecosystem: Java has a large and active developer community, offering extensive documentation, tutorials, frameworks, and libraries. This rich ecosystem enhances the development process and supports a wide range of application domains.
+Q 4 :-  What is an Object ?
+Ans: - An object is a fundamental concept in object-oriented programming (OOP). In the context of programming, an object represents a particular instance of a class. It encapsulates both data (attributes or properties) and behaviors (methods or functions) into a single entity.
+Objects are created based on a class, which serves as a blueprint or template. The class defines the structure and behavior of objects, specifying the properties they possess and the actions they can perform. Each object created from a class can have its own unique values for the attributes defined by the class.
+For example, if we have a class called "Car," an object of the Car class can represent a specific car instance with attributes like color, model, and speed. The object can also have behaviors defined by methods, such as starting the engine, accelerating, or braking.
+Objects allow us to model real-world entities, concepts, or systems in code. They promote modularity, encapsulation, and code reusability by grouping related data and behaviours together. Through objects, we can interact with and manipulate data, perform operations, and build complex software systems in an organized and modular manner.
+
+
+
+Q 5 :-   What is a class ?
+Ans :- A class is a fundamental concept in object-oriented programming (OOP). It serves as a blueprint or template for creating objects. A class defines the structure, properties, and behaviors that objects of that class will possess.
+In simpler terms, a class can be seen as a user-defined data type that encapsulates data and functions (methods) related to that data. It describes what an object of that class will be like and what it can do.
+The properties of a class are typically represented as variables or attributes, which define the characteristics or state of an object. The behaviors are represented as methods, which define the actions or operations that objects of that class can perform.
+For example, if we have a class called "Car," it may have attributes such as color, model, and speed. It may also have methods like startEngine(), accelerate(), and brake().
+By creating objects from a class, we can instantiate and use multiple instances of that class, each with its own set of attributes and the ability to perform the defined behaviors. Classes provide a means of organizing and structuring code, promoting reusability, modularity, and abstraction in object-oriented programming.
+
+
+
+Q 6 ;-   Explain about the main() method in Java?
+Ans : -  In Java, the main() method is the entry point for a Java program. It serves as the starting point of execution when a Java program is run. The main() method has a specific signature and syntax that must be followed:
+public static void main(String[] args) { // Code to be executed } 
+Here's a breakdown of the different components of the main() method:
+* public: The main() method is declared as public, which means it can be accessed by any other class.
+* static: The main() method is declared as static, allowing it to be called without creating an instance of the class. This is necessary for the Java runtime to invoke the method directly.
+* void: The main() method does not return any value. The void keyword indicates that the method does not produce a result.
+* main: The name of the method is main, which is fixed and cannot be changed. This is the method that will be executed when the program starts.
+* String[] args: The main() method accepts a parameter of type String[] named args. This parameter allows you to pass command-line arguments to the program if needed.
+The code inside the main() method is where the program's logic and functionality are written. It is the starting point from which the program's execution begins. From the main() method, you can call other methods, instantiate objects, and perform various operations as per your program's requirements.
+
