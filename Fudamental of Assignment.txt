@@ -1,0 +1,142 @@
+Q 1 :-  What is statically typed and Dynamically typed Programming Language?
+Ans :- In programming languages, "statically typed" and "dynamically typed" refer to how variables are declared and type-checked:
+* Statically typed languages: In statically typed languages, variables are required to have their types explicitly declared at compile-time. Once a variable's type is declared, it cannot be changed. The compiler performs type checking during compilation, ensuring that variables are used in a manner consistent with their declared types. Examples of statically typed languages include Java, C++, and C#.
+* Dynamically typed languages: In dynamically typed languages, variables are not explicitly assigned a type during declaration. Instead, their types are determined and checked at runtime, as the program is being executed. Variables can be dynamically reassigned to different types during the program's execution. Type checking is performed at runtime, and errors related to incompatible types may arise during program execution. Examples of dynamically typed languages include Python, JavaScript, and Ruby.
+The choice between statically typed and dynamically typed languages has implications for factors such as performance, development speed, and flexibility. Statically typed languages tend to provide more compile-time checks, catching certain errors before the program runs, while dynamically typed languages offer more flexibility and faster development cycles by allowing dynamic changes to variable types.
+
+
+Q2 : - What is the variable in Java?
+ Ans :- In Java, a variable is a named container that holds a value or a reference to an object. It is used to store data that can be manipulated and accessed throughout the program.
+Variables in Java have the following characteristics:
+1. Declaration: Variables must be declared before they can be used. This involves specifying the variable's name and type. For example:
+javaCopy code
+int age; 
+2. Type: Every variable in Java has a specific data type that determines the kind of values it can hold. The data types can be primitive types (e.g., int, double, boolean) or reference types (e.g., String, Object).
+3. Assignment: After declaring a variable, you can assign a value to it using the assignment operator (=). For example:
+javaCopy code
+age = 25; 
+4. Initialization: Variables can be declared and assigned a value in a single statement. This is known as initialization. For example:
+javaCopy code
+int age = 25; 
+5. Scope: Variables have a scope, which defines the portion of the program where the variable is accessible. It is determined by the block of code within curly braces {} where the variable is declared.
+6. Lifetime: Variables exist within their scope and have a lifetime. They are created when the program execution enters their scope and are destroyed or become inaccessible when the scope is exited.
+7. Naming: Variable names in Java must follow certain rules. They should start with a letter, underscore, or dollar sign, and can include letters, digits, underscores, or dollar signs. Java is case-sensitive, so age and Age are considered different variables.
+
+
+Q3 :-  How To Assign a Value To Variable ?
+Ans : -  To assign a value to a variable in Java, you can use the assignment operator (=). Here's the general syntax:
+javaCopy code
+variableName = value; 
+Here's an example that demonstrates assigning a value to a variable:
+javaCopy code
+int age; // Declaration age = 25; // Assignment 
+In the example above, the variable age is declared with the int data type. Then, the value 25 is assigned to the variable using the assignment operator (=).
+You can also combine variable declaration and assignment in a single statement, known as initialization:
+javaCopy code
+int age = 25; // Declaration and assignment (Initialization) 
+In this case, the variable age is declared and assigned the value 25 in a single statement.
+It's important to note that the data type of the value being assigned must be compatible with the declared type of the variable. For example, you cannot assign a String value to an int variable directly. Type mismatch may lead to compilation errors.
+Once a value is assigned to a variable, you can use that variable in expressions, perform operations on it, and retrieve its value throughout your program.
+Top of Form
+
+
+
+
+Q 4 :-    What are Primitive Data types in Java? 
+Ans ;- n Java, primitive data types are the basic building blocks for representing and manipulating simple values. There are eight primitive data types available:
+1. boolean: Represents a boolean value, either true or false.
+2. byte: Represents a small integer value. It has a size of 8 bits and can hold values from -128 to 127.
+3. short: Represents a short integer value. It has a size of 16 bits and can hold values from -32,768 to 32,767.
+4. int: Represents an integer value. It has a size of 32 bits and can hold values from -2,147,483,648 to 2,147,483,647.
+5. long: Represents a long integer value. It has a size of 64 bits and can hold values from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+6. float: Represents a floating-point value with single precision. It has a size of 32 bits and can hold decimal values with a range of approximately ±3.40282347E+38F.
+7. double: Represents a floating-point value with double precision. It has a size of 64 bits and can hold decimal values with a range of approximately ±1.79769313486231570E+308.
+8. char: Represents a single character value. It has a size of 16 bits and can store characters from the Unicode character set.
+These primitive data types provide a way to represent different kinds of basic data such as boolean values, whole numbers, decimal numbers, and characters. They are used to efficiently store and manipulate simple data values in Java programs.
+
+
+
+Q5 :- What are the Identifiers in Java ?
+Ans: -n Java, identifiers are names used to identify variables, methods, classes, packages, and other program elements. They provide a way to refer to these elements within a Java program. Here are some key points about identifiers in Java:
+1. Rules for naming identifiers:
+* Must start with a letter (A-Z or a-z), underscore (_), or dollar sign ($).
+* Can contain letters, digits (0-9), underscores, or dollar signs.
+* Cannot be a reserved keyword or a literal (e.g., true, false, null).
+* Should follow the camelCase convention (e.g., myVariableName) for improved readability.
+2. Case-sensitivity: Java is case-sensitive, meaning that identifiers with different casing are considered distinct. For example, myVariable and myvariable are treated as separate identifiers.
+3. Meaningful names: It is important to choose meaningful and descriptive names for identifiers to enhance code readability and maintainability. Use names that convey the purpose or meaning of the associated element.
+4. Conventions: While not enforced by the Java language, there are conventions and naming styles commonly followed by Java developers. For example, class names start with an uppercase letter (e.g., MyClass), variable and method names start with a lowercase letter (e.g., myVariable, myMethod), and constants are written in uppercase with underscores (e.g., MAX_VALUE).
+5. Packages: Package names are also considered identifiers. They are written in lowercase and follow a reverse domain name convention (e.g., com.example.package).
+Proper and consistent use of identifiers contributes to code readability, maintainability, and collaboration among developers. By choosing meaningful names and following naming conventions, your code becomes more self-explanatory and easier to understand.
+Top of Form
+
+
+Q 6 :- List the Operators in Java ?
+Ans :- Java provides several operators that allow you to perform various operations on variables, values, and objects. Here's a list of the different types of operators in Java:
+
+Arithmetic Operators:
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modulo (%)
+Increment (++)
+Decrement (--)
+Relational Operators:
+
+Equal to (==)
+Not equal to (!=)
+Greater than (>)
+Less than (<)
+Greater than or equal to (>=)
+Less than or equal to (<=)
+Logical Operators:
+
+Logical AND (&&)
+Logical OR (||)
+Logical NOT (!)
+Assignment Operators:
+
+Simple assignment (=)
+Addition assignment (+=)
+Subtraction assignment (-=)
+Multiplication assignment (*=)
+Division assignment (/=)
+Modulo assignment (%=)
+Bitwise Operators:
+
+Bitwise AND (&)
+Bitwise OR (|)
+Bitwise XOR (^)
+Bitwise NOT (~)
+Left shift (<<)
+Right shift (>>)
+Unsigned right shift (>>>)
+Conditional Operator:
+
+Conditional (ternary) operator (?:)
+instanceof Operator:
+
+instanceof operator
+
+
+Q 7 :-  Explain about Increment and Decrement operators and give an examples ? 
+Ans :-  The increment (++) and decrement (--) operators in Java are used to increase or decrease the value of a variable by 1, respectively. They are unary operators, meaning they operate on a single operand. Here's how they work:
+1. Increment Operator (++): The increment operator increases the value of a variable by 1.
+Prefix Increment: When the ++ operator is placed before the variable, the increment operation is performed before the value is used.
+javaCopy code
+int num = 5; int incrementedNum = ++num; // Incrementing num by 1 System.out.println(incrementedNum); // Output: 6 
+Postfix Increment: When the ++ operator is placed after the variable, the increment operation is performed after the value is used.
+javaCopy code
+int num = 5; int incrementedNum = num++; // Using num's value, then incrementing by 1 System.out.println(incrementedNum); // Output: 5 System.out.println(num); // Output: 6 
+2. Decrement Operator (--): The decrement operator decreases the value of a variable by 1.
+Prefix Decrement: When the -- operator is placed before the variable, the decrement operation is performed before the value is used.
+javaCopy code
+int num = 5; int decrementedNum = --num; // Decrementing num by 1 System.out.println(decrementedNum); // Output: 4 
+Postfix Decrement: When the -- operator is placed after the variable, the decrement operation is performed after the value is used.
+javaCopy code
+int num = 5; int decrementedNum = num--; // Using num's value, then decrementing by 1 System.out.println(decrementedNum); // Output: 5 System.out.println(num); // Output: 4 
+The increment and decrement operators are commonly used in loops, such as for or while, to control iterations and manipulate counter variables. They can also be used in other scenarios where you need to increment or decrement the value of a variable by 1.
+Top of Form
+
